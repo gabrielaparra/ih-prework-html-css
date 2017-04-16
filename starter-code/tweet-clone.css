@@ -1,0 +1,103 @@
+* {
+  font-family: helvetica;
+}
+
+body {
+  background-color: rgb(244, 248, 249);
+}
+
+#account{
+  position: relative;
+  top: -40px;
+  left: 80px;
+}
+#tweet {
+  margin: auto;
+  width: 900px;
+  height: 230px;
+  border-radius: 10px;
+  border: 2px solid rgb(225, 232, 237);
+  font-size: 30px;
+  padding: 30px;
+  background-color: rgb(255, 255, 255);
+}
+
+#profile-picture{
+  position: relative;
+}
+
+#account-logo {
+  position: relative;
+  top: -40px;
+  left: 20px;
+}
+
+#name {
+  position: relative;
+  top: -42px;
+  left: 20px;
+}
+
+#validated-account {
+  position: relative;
+  top: -40px;
+  left: 20px;
+}
+
+#username {
+  position: relative;
+  top: -104px;
+  left: 90px;
+  font-size: 26px;
+  color: rgb(104, 109, 129);
+}
+
+#follow-button {
+  float: right;
+  font-weight: bold;
+  color: rgb(85, 172, 238);
+  top: -40px;
+  border: 2px solid rgb(85, 172, 238);
+  border-radius: 10px;
+  padding: 12px 25px 12px 25px;
+  width: 140px;
+}
+
+#user {
+  float: left;
+  width: 400px;
+}
+
+#message {
+  clear: both;
+  position: relative;
+  top: -95px;
+}
+
+#datetime {
+  font-size: 26px;
+  color: rgb(101, 116, 127);
+  position: relative;
+  top: -20px;
+}
+
+#footer {
+  align-content: center;
+  color: rgb(105, 120, 130);
+  font-size: 26px;
+  position: relative;
+  top: -115px;
+}
+
+#reply {
+  margin-right: 30px;
+}
+
+#retweet{
+  margin-right: 5px;
+}
+
+#favorite {
+  margin-right: 5px;
+  margin-left: 30px;
+}
